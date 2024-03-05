@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: space-between; /* organiza na horizontal */
+    align-items: center; /* organiza na vertical */
+    background-color: #3e77b6;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Press Start 2P", sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 0 black;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px; 
+}
+
+a::before { /* Quadradinho do inicio dos tópicos*/
+    content: "";
+    background-color: #4C5B84;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #4C5B84;
+    box-shadow: 5px 5px 0 black;
+    padding: 20px 20px; 
+    margin: 0;
+    position: relative;
+    transition: transform 120ms linear;
+}
+
+#button:active { /* Animação quando clica no botão */
+    top: 3px;
+}
+
+#button:hover {  /* Animação botão quando passa o mouse em cima  */
+    transform:scale(1.05);
+}
+
+/* .avatar {
+    height: 60px;
+    width: 60px;
+    box-shadow: 3px 3px 0 black;
+} */
+
+
+
+
