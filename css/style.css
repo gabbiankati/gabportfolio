@@ -7,7 +7,8 @@ header {
     padding: 10px 20px;
 }
 
-h1 {
+title {
+    display: inline-block;
     font-size: 30px;
     font-family: "Press Start 2P", sans-serif;
     color: #fff;
@@ -37,7 +38,7 @@ a::before { /* Quadradinho do inicio dos tópicos*/
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #4C5B84;
     box-shadow: 5px 5px 0 black;
@@ -47,11 +48,11 @@ a::before { /* Quadradinho do inicio dos tópicos*/
     transition: transform 120ms linear;
 }
 
-#button:active { /* Animação quando clica no botão */
+.button:active { /* Animação quando clica no botão */
     top: 3px;
 }
 
-#button:hover {  /* Animação botão quando passa o mouse em cima  */
+.button:hover {  /* Animação botão quando passa o mouse em cima  */
     transform:scale(1.05);
 }
 
@@ -61,6 +62,49 @@ a::before { /* Quadradinho do inicio dos tópicos*/
     box-shadow: 3px 3px 0 black;
 } */
 
+main {
+    display: inline-block;
+    background-color: #4C5B84;
+    width: 627px;
+    height: 184px;
+    box-shadow: 8px 8px 0 black;
+    margin: 20px;
+}
 
+h1 {
+    font-size: 30px;
+    font-family: "Press Start 2P", sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 0 black;
+    margin-top: 55px;
+    text-align: center;
 
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Press Start 2P", sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 0 black;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainbutton {
+    display: inline-block;
+    background-color: #4C5B84;
+    box-shadow: 5px 5px 0 black;
+    padding: 20px 20px; 
+    margin: 70px;
+    position: relative;
+    transition: transform 120ms linear;
+}
+
+.mainbutton:active {
+    top: 3px;
+}
+
+.mainbutton:hover {  
+    transform:scale(1.05);
+}
 
